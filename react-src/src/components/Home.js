@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import logo from "./../logo.svg";
-import "./../App.css";
+import HomeItem from './HomeItem'
+import logo from "./../logo.svg"
+import "./css/home.css"
 
 export default class Home extends Component {
     state = {
@@ -23,16 +23,16 @@ export default class Home extends Component {
 
 
     render() {
-     console.log(this.state);
      const { home, isLoaded } = this.state;
      if(isLoaded){
         return(
             <div className="App">
               <header className="App-header">
                   <p>Postingan</p>
-              <img src={logo} className="App-logo" alt="logo" />
+              <img src={logo } className="App-logo" alt="logo" />
                     { home.map(home => (
-                                <h4 key={home.id}>{ home.title.rendered }</h4>
+                                <HomeItem key={ home.id } home={home}/>
+                                
                             )) }
                 </header>
             </div>

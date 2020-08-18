@@ -1,16 +1,5 @@
 (this["webpackJsonpreacttheme"] = this["webpackJsonpreacttheme"] || []).push([["main"],{
 
-/***/ "./src/App.css":
-/*!*********************!*\
-  !*** ./src/App.css ***!
-  \*********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "./src/App.js":
 /*!********************!*\
   !*** ./src/App.js ***!
@@ -23,53 +12,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Home */ "./src/components/Home.js");
-var _jsxFileName = "D:\\laragon\\www\\reactwp\\wp-content\\themes\\reacttheme\\react-src\\src\\App.js";
+var _jsxFileName = "E:\\laragon\\www\\wordpress\\wp-content\\themes\\reacttheme\\react-src\\src\\App.js";
 
 
 
 class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  // constructor(props){
-  //     super(props);
-  //     this.state = {
-  //         data:[]
-  //     }
-  // }
-  // componentDidMount(){
-  //     return fetch('/wp-json/wp/v2/posts')
-  //     .then((response) => response.json())
-  //     .then((responseJson)=>{
-  //         this.setState({ data: responseJson });
-  //     })
-  //     .catch((error) => {
-  //         console.error(error);
-  //     });
-  // }
-  // render(){
-  //     return(
-  //         <div className="App">
-  //             <header className="App-header">
-  //                         <img src={logo} className="App-logo" alt="logo" />
-  //                         <h1 className="App-title">
-  //                             {this.state.data.map((item, i) => (<p key={i}>{item.title.rendered}</p>))}
-  //                         </h1>
-  //             </header>
-  //         </div>
-  //     );
-  // }
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "App",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 8,
         columnNumber: 13
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39,
+        lineNumber: 9,
         columnNumber: 17
       }
     }));
@@ -93,12 +54,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Home; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _HomeItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HomeItem */ "./src/components/HomeItem.js");
 /* harmony import */ var _logo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../logo.svg */ "./src/logo.svg");
 /* harmony import */ var _logo_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_logo_svg__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../App.css */ "./src/App.css");
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "D:\\laragon\\www\\reactwp\\wp-content\\themes\\reacttheme\\react-src\\src\\components\\Home.js";
+/* harmony import */ var _css_home_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/home.css */ "./src/components/css/home.css");
+/* harmony import */ var _css_home_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_home_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "E:\\laragon\\www\\wordpress\\wp-content\\themes\\reacttheme\\react-src\\src\\components\\Home.js";
 
 
 
@@ -124,7 +85,6 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
-    console.log(this.state);
     const {
       home,
       isLoaded
@@ -136,7 +96,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 29,
           columnNumber: 13
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
@@ -144,14 +104,14 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 30,
           columnNumber: 15
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 31,
           columnNumber: 19
         }
       }, "Postingan"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -161,18 +121,19 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 32,
           columnNumber: 15
         }
-      }), home.map(home => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+      }), home.map(home => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_HomeItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
         key: home.id,
+        home: home,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 34,
           columnNumber: 33
         }
-      }, home.title.rendered))));
+      }))));
     }
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
@@ -186,6 +147,118 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
 }
+
+/***/ }),
+
+/***/ "./src/components/HomeItem.js":
+/*!************************************!*\
+  !*** ./src/components/HomeItem.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return HomeItem; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "E:\\laragon\\www\\wordpress\\wp-content\\themes\\reacttheme\\react-src\\src\\components\\HomeItem.js";
+
+
+
+class HomeItem extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      imgUrl: '',
+      author: '',
+      isLoaded: false
+    };
+  }
+
+  componentDidMount() {
+    const {
+      featured_media,
+      author
+    } = this.props.home;
+    console.log({
+      author
+    });
+    const getImageUrl = axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/wp-json/wp/v2/media/', {
+      featured_media
+    });
+    const getAuthor = axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/wp-json/wp/v2/users/', {
+      author
+    });
+    Promise.all([getImageUrl, getAuthor]).then(res => {
+      //    console.log(res[1]);
+      this.setState({
+        imgUrl: res[0].data.media_details.sizes.thumbnail.source_url,
+        author: res[1].data.name,
+        isLoaded: true
+      });
+    });
+  }
+
+  render() {
+    const {
+      title,
+      excerpt
+    } = this.props.home; // const { author, imgUrl, isLoaded } = this.state;
+
+    return (
+      /*#__PURE__*/
+      // console.log(imgUrl),
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        style: {
+          marginBottom: '0'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 17
+        }
+      }, title.rendered), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        dangerouslySetInnerHTML: {
+          __html: excerpt.rendered
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 17
+        }
+      }))
+    );
+  }
+
+}
+HomeItem.propType = {
+  home: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object.isRequired
+};
+
+/***/ }),
+
+/***/ "./src/components/css/home.css":
+/*!*************************************!*\
+  !*** ./src/components/css/home.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -217,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
 /* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
-var _jsxFileName = "D:\\laragon\\www\\reactwp\\wp-content\\themes\\reacttheme\\react-src\\src\\index.js";
+var _jsxFileName = "E:\\laragon\\www\\wordpress\\wp-content\\themes\\reacttheme\\react-src\\src\\index.js";
 
 
 
@@ -252,7 +325,7 @@ _serviceWorker__WEBPACK_IMPORTED_MODULE_4__["unregister"]();
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/media/logo.5d5d9eef.svg";
+module.exports = __webpack_require__.p + "static/media/logo.ee7cd8ed.svg";
 
 /***/ }),
 
@@ -366,10 +439,10 @@ function unregister() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\www\reactwp\wp-content\themes\reacttheme\react-src\src\index.js */"./src/index.js");
+module.exports = __webpack_require__(/*! E:\laragon\www\wordpress\wp-content\themes\reacttheme\react-src\src\index.js */"./src/index.js");
 
 
 /***/ })
 
-},[[0,"runtime-main",0]]]);
+},[[0,"runtime-main",1]]]);
 //# sourceMappingURL=main.chunk.js.map
